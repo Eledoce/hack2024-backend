@@ -8,5 +8,5 @@ createConnection()
 
 app.listen(PORT, () => {
   docV1(app, PORT)
-  console.log(`Server is running on http://localhost:${PORT}`)
+  console.log(`Serve is running on http://localhost:${PORT}`)
 })

@@ -5,7 +5,7 @@ const router = Router()
 
 /**
  * @openapi
- * /api/v1/receta/:
+ * /api/v1/recetas/:
  *   get:
  *     tags:
  *       - Receta
@@ -33,7 +33,7 @@ router.get('/', (req, res) => {
 
 /**
  * @openapi
- * /api/v1/receta/:
+ * /api/v1/recetas/:
  *   post:
  *     tags:
  *       - Receta

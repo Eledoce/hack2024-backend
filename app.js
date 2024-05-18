@@ -1,7 +1,11 @@
 import express from 'express'
+import cors from 'cors'
 import RouterApiV1 from './src/v1/Router.js'
 
 const app = express()
+
+// Use cors middleware
+app.use(cors())
 
 app.use('/api/v1', RouterApiV1)
 
