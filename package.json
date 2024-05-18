@@ -10,7 +10,7 @@
     "start": "node ./index.js"
   },
   "engines": {
-    "node": ">=21"
+    "node": ">=16"
   },
   "keywords": [],
   "author": "",
