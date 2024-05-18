@@ -1,4 +1,16 @@
-Teconlogías
+# Run
+> [!NOTE]  
+> se requiere nodejs instalado para ejecutar el proyecto
+```sh
+npm i
+```
+
+```sh
+npm run dev
+```
+
+# Teconlogías
+
 
 - Javascript
 - Node.js
