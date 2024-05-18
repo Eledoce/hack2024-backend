@@ -1,12 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend de la aplicación",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch --env-file .env ./index.js"
+    "dev": "node --watch --env-file .env ./index.js",
+    "start": "node ./index.js"
+  },
+  "engines": {
+    "node": ">=21.2.0"
   },
   "keywords": [],
   "author": "",
