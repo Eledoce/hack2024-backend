@@ -7,7 +7,12 @@ const options = {
     openapi: '3.0.0',
     info: { title: 'Backend', version: '1.0.0' },
   },
-  apis: ['./src/v1/recetas/receta.js'],
+  apis: [
+    './src/v1/recetas/receta.js',
+    './src/v1/recetas/Router.js',
+    './src/v1/paciente/router.js',
+    './src/v1/paciente/cliente.js',
+  ],
 }
 
 // Docs in JSON format
