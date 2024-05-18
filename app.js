@@ -6,6 +6,7 @@ const app = express()
 
 // Use cors middleware
 app.use(cors())
+app.use(express.json())
 
 app.use('/api/v1', RouterApiV1)
 

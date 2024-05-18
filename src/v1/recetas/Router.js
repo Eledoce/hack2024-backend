@@ -52,7 +52,7 @@ router.get('/', (req, res) => {
  */
 
 router.post('/', (req, res) => {
-  console.log(req.body)
+  console.log(req.body, 'req.body')
   // TODO agregar validaciones
   const receta = new Receta({
     nombrePaciente: req.body.nombrePaciente,
