@@ -132,7 +132,9 @@ router.put('/:id', async (req, res) => {
  */
 
 router.delete('/:id', async (req, res) => {
-  const paciente = await pacienteModel.findOneAndDelete({ id: req.params.id })
+  console.log(req.params.id, 'req.params.id')
+  const paciente = await pacienteModel.findOneAndDelete({ _id: req.params.id })
+
   res.json(paciente)
 })
 
