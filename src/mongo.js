@@ -9,10 +9,7 @@ const createConnection = async () => {
         useUnifiedTopology: true,
       }
     )
-    console.log(
-      'MongoDB connection successful',
-      connection.connection.readyState
-    )
+    console.log('MongoDB connection successful')
     return connection
   } catch (error) {
     console.log('MongoDB connection error', error)
